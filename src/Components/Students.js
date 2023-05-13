@@ -19,6 +19,7 @@ async function deletestudents(studx){
      if(data){
     const remainstudents= students.filter((stud,idx)=>stud.id !==studx)
     setStudents(remainstudents)
+    history.push("/students")
      }
 }
   return (
