@@ -59,7 +59,7 @@ async function deletestudents(studx){
                             ><EditIcon /></Button>
 
                             <Button size="small"
-                             onClick={()=>deletestudents(idx)}
+                             onClick={()=>deletestudents(stud.id)}
                             ><DeleteIcon color="error"/></Button>
                          </CardActions>
                         </TableCell>
