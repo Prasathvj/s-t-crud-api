@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.das{
+  display: flex;
+  gap: 1rem;
+  margin: 5px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+  display:flex;
+  gap: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.te-st{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6rem;
+  padding: 20px;
+  margin: 70px 0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.teach-card{
+padding: 10px 100px 10px 100px;
+ 
+}
+.inp1{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 20px;
+}
+.inp{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.a-btn{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
 }
+.cen{
+  text-align: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+body{
+  background-image: linear-gradient(to right, rgb(196, 82, 57),rgb(250, 146, 123),rgb(224, 96, 68));
+}
+.children{
+  text-align: center;
+  margin: 50px;
+}
+.below{
+  margin-top: 100px;
 }
